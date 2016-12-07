@@ -1,7 +1,7 @@
 <?php
 /**
  * The template for case studies.
- 
+ *
  *
  * @package WordPress
  * @subpackage Accelerate-child
@@ -35,15 +35,15 @@ get_header(); ?>
 
 			<div class="case-study-images">
 
-			<?php if($image_1) { 
-			echo wp_get_attachment_image( $image_1, $size );
-			 } ?>
-			<?php if($image_2) {
-			echo wp_get_attachment_image( $image_2, $size );
-			 } ?>
-			<?php if($image_3) { 
-			echo wp_get_attachment_image( $image_3, $size );
-				 } ?>
+				<?php if($image_1) { 
+					echo wp_get_attachment_image( $image_1, $size );
+			 			} ?>
+				<?php if($image_2) {
+					echo wp_get_attachment_image( $image_2, $size );
+			 			} ?>
+				<?php if($image_3) { 
+					echo wp_get_attachment_image( $image_3, $size );
+				 		} ?>
 
 			</div>
 			</article>	
