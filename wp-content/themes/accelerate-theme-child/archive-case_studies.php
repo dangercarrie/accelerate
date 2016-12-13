@@ -30,7 +30,7 @@ get_header(); ?>
 				<h6><?php echo $services; ?></h6>
 				
 				<?php the_excerpt(); ?>
-				<p><strong><a href="<?php the_permalink(); ?>">View Project > </a></strong></p>
+				<p><strong><a href="<?php the_permalink(); ?>">View Project &rsaquo; </a></strong></p>
 			</aside>
 
 			<div class="case-study-images archive">

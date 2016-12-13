@@ -78,18 +78,19 @@ article.case-study {
 aside.case-study-sidebar {
 	float: left;
 	width: 300px;
-	margin: 0 60px 0 0;
-	overflow: auto;
+	margin: 0 40px 0 0;
+	overflow: hidden;
 }
 aside.case-study-images {
 	float: left;
 	width: 606px;
 }
-aside.case-study-images img {
+.case-study-images img {
 	float: left;
-	display: inline-block;
+	display: block;
 	margin-bottom: 50px;
 	border: 1px solid #dddddd;
+	overflow: auto;
 
 }
 #content.contact {
